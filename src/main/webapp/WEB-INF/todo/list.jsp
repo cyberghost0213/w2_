@@ -7,6 +7,8 @@
 </head>
 <body>
 <h1>Todo List</h1>
+<h2>$(loginInfo)</h2>
+<h3>$(loginInfo.name)</h3>
 <ul>
     <c:forEach items="${dtoList}" var="dto">
         <li>
